@@ -37,7 +37,7 @@
         <li>Electronic lock mechanism</li>
         <li>Buzzer</li>
         <li>LEDs</li>
-        <li>Breadboard and connecting wires</li>
+        <li>Connecting wires</li>
     </ul>
 
    <h2 id="section4">4. Software Components</h2>
