@@ -1,103 +1,89 @@
+Project Report: RFID-Based Door Access Control System
+Table of Contents
+Project Overview
+Objective
+Hardware Components
+Software Components
+System Architecture
+Functionalities
+User Guide
+Results
+Challenges and Limitations
+Future Improvements
+Conclusion
+References
+1. Project Overview
+The RFID-Based Door Access Control System is an embedded system that utilizes RFID (Radio-Frequency Identification) technology to control access to a secured area or a door. The system consists of an ESP8266 microcontroller, an RFID module, a 16x2 LCD display, and a web server. Users are required to authenticate using a web-based interface before being granted access.
 
-<h1>Project Report: RFID-Based Door Access Control System</h1>
+2. Objective
+The main objective of this project is to create a secure and user-friendly access control system that provides controlled access to a specific area. The system should be able to:
 
-<h2>Table of Contents</h2>
-    <ol>
- <li><a href="#section1">Project Overview</a></li>
-        <li><a href="#section2">Objective</a></li>
-        <li><a href="#section3">Hardware Components</a></li>
-        <li><a href="#section4">Software Components</a></li>
-        <li><a href="#section5">System Architecture</a></li>
-        <li><a href="#section6">Functionalities</a></li>
-        <li><a href="#section7">User Guide</a></li>
-        <li><a href="#section8">Results</a></li>
-        <li><a href="#section9">Challenges and Limitations</a></li>
-        <li><a href="#section10">Future Improvements</a></li>
-        <li><a href="#section11">Conclusion</a></li>
-        <li><a href="#section12">References</a></li>
-    </ol>
+Allow authorized users to unlock the door using their RFID cards.
+Maintain a list of authorized users and their RFID card information.
+Allow administrators to add or remove users through a web interface.
+Provide a secure login mechanism for administrators to manage the system.
+3. Hardware Components
+The following hardware components are used in the project:
 
-  <h2 id="section1">1. Project Overview</h2>
-    <p>The RFID-Based Door Access Control System is an embedded system that utilizes RFID (Radio-Frequency Identification) technology to control access to a secured area or a door. The system consists of an ESP8266 microcontroller, an RFID module, a 16x2 LCD display, and a web server. Users are required to authenticate using a web-based interface before being granted access.</p>
+ESP8266 WiFi module
+MFRC522 RFID module
+16x2 I2C LCD display
+Electronic lock mechanism
+Buzzer
+LEDs
+Breadboard and connecting wires
+4. Software Components
+The software components used in the project include:
 
-<h2 id="section2">2. Objective</h2>
-    <p>The main objective of this project is to create a secure and user-friendly access control system that provides controlled access to a specific area. The system should be able to:</p>
-    <ul>
-        <li>Allow authorized users to unlock the door using their RFID cards.</li>
-        <li>Maintain a list of authorized users and their RFID card information.</li>
-        <li>Allow administrators to add or remove users through a web interface.</li>
-        <li>Provide a secure login mechanism for administrators to manage the system.</li>
-    </ul>
-    <h2 id="section3">3. Hardware Components</h2>
-    <p>The hardware components used in this project include:</p>
-    <ul>
-        <li>ESP8266 microcontroller</li>
-        <li>RFID module (e.g., RC522)</li>
-        <li>16x2 LCD display</li>
-        <li>Relay module for controlling the door lock</li>
-        <li>Various passive and active electronic components</li>
-    </ul>
+Arduino IDE for programming the ESP8266 microcontroller.
+Libraries such as Wire, MFRC522, LiquidCrystal_I2C, ESP8266WiFi, and ESP8266WebServer.
+Google Apps Script for cloud-based data storage.
+HTML and CSS for creating web interfaces.
+5. System Architecture
+The system follows a client-server architecture:
 
-  <h2 id="section4">4. Software Components</h2>
-    <p>The software components used in this project include:</p>
-    <ul>
-        <li>Arduino IDE for programming the ESP8266</li>
-        <li>RFID library for Arduino</li>
-        <li>HTML, CSS, and JavaScript for the web interface</li>
-        <li>Python for the web server backend</li>
-        <li>MySQL database for user management</li>
-    </ul>
+The ESP8266 microcontroller serves as the client and controls the hardware components.
+The Google Apps Script acts as a server to store and manage authorized user data.
+The web server running on the ESP8266 microcontroller provides a user interface for administrators and communicates with the Google Apps Script server.
+6. Functionalities
+The RFID-Based Door Access Control System offers the following functionalities:
 
-  <h2 id="section5">5. System Architecture</h2>
-    <p>The system architecture consists of three main components:</p>
-    <ol>
-        <li>The ESP8266 microcontroller that interfaces with the RFID module and controls the door lock.</li>
-        <li>The web server, implemented using Python and Flask, for user management and access control.</li>
-        <li>The MySQL database for storing user information and access logs.</li>
-    </ol>
+RFID card authentication for access control.
+Web-based user interface for administrators to manage users.
+Real-time feedback through the 16x2 LCD display.
+Audible feedback using a buzzer.
+LED indicators for system status.
+Secure user authentication for administrators.
+Ability to add, remove, and view authorized users.
+7. User Guide
+For Administrators:
+Connect to the system's WiFi network.
+Open a web browser and navigate to the system's IP address (default: http://<ESP8266_IP>/).
+Log in with the provided username and password.
+Add or remove users as needed.
+For Users:
+Present an authorized RFID card to the RFID module.
+The system will either grant or deny access and provide visual and audible feedback.
+8. Results
+The RFID-Based Door Access Control System successfully provides access control based on RFID card authentication. Administrators can easily manage user access through a web interface, and the system provides real-time feedback to users.
 
-  <h2 id="section6">6. Functionalities</h2>
-    <p>The RFID-Based Door Access Control System provides the following functionalities:</p>
-    <ul>
-        <li>Authentication through RFID cards</li>
-        <li>Web-based user management</li>
-        <li>Real-time access logs</li>
-        <li>Secure login for administrators</li>
-    </ul>
+9. Challenges and Limitations
+Limited storage capacity: The EEPROM storage of the ESP8266 has a limited capacity for storing user data.
+Security: While the system offers basic security for administrators, further security measures can be implemented.
+Scalability: The system may require additional features for scalability in larger environments.
+10. Future Improvements
+Implement a database for more extensive storage of user data.
+Enhance security features, such as multi-factor authentication.
+Enable remote access and control via a mobile app.
+Integrate with a cloud-based authentication service for user management.
+11. Conclusion
+The RFID-Based Door Access Control System provides a secure and user-friendly solution for access control. It can be used in various applications, including homes, offices, and industrial facilities, to ensure authorized access to secured areas.
 
-<h2 id="section7">7. System Implementation</h2>
-    <p>The system was implemented as follows:</p>
-    <ol>
-        <li>First, we connected the RFID module and 16x2 LCD display to the ESP8266 microcontroller.</li>
-       <li>We programmed the ESP8266 to read RFID card data, display user information on the LCD, and control the door lock via the relay module.</li>
-  <li>We developed the web interface using HTML, CSS, and JavaScript to allow users to log in and request access.</li>
-  <li>The Python Flask web server was set up to handle user management, access control, and real-time access logs.</li>
- <li>MySQL database was used to store user information and access logs securely.</li>
-    </ol>
-
-  <h2 id="section8">8. User Manual</h2>
-    <p>Here's a brief user manual on how to use the RFID-Based Door Access Control System:</p>
-    <ol>
- <li>Approach the door and present your RFID card to the RFID reader.</li>
-        <li>Your user information will be displayed on the LCD screen, and the door will unlock if you have access.</li>
-<li>For administrators, access the web interface to manage users and view access logs.</li>
-    </ol>
-
-    <h2 id="section9">9. Conclusion</h2>
-    <p>In conclusion, the RFID-Based Door Access Control System provides a secure and convenient way to control access to a facility. It combines hardware and software components to ensure only authorized personnel can enter, and it keeps a record of access for security purposes.</p>
-
-   <h2 id="section10">10. Future Enhancements</h2>
-    <p>Future enhancements for this system may include:</p>
-    <ul>
-        <li>Integration with mobile apps for remote access control.</li>
-        <li>Enhanced security features such as two-factor authentication.</li>
-        <li>Expansion to support multiple doors and access points.</li>
-    </ul>
-   <h2 id="section11">11. References</h2>
-    <p>Here are the references and resources used in the development of this project:</p>
-    <ul>
-        <li><a href="https://www.example.com/resource1">Resource 1: Detailed description of RFID technology</a></li>
-        <li><a href="https://www.example.com/resource2">Resource 2: ESP8266 documentation and tutorials</a></li>
-        <li><a href="https://www.example.com/resource3">Resource 3: Python Flask web framework</a></li>
-        <li><a href="https://www.example.com/resource4">Resource 4: MySQL database documentation</a></li>
-    </ul>
+12. References
+ESP8266 WiFi Module
+MFRC522 RFID Module
+Arduino IDE
+Google Apps Script
+LiquidCrystal_I2C Library
+ESP8266WiFi Library
+ESP8266WebServer Library
