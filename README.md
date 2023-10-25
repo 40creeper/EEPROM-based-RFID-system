@@ -2,18 +2,18 @@
 
    <h2>Table of Contents</h2>
     <ol>
-        <li><a href="#section1">Project Overview</a></li>
-        <li><a href="#section2">Objective</a></li>
-        <li><a href="#section3">Hardware Components</a></li>
-        <li><a href="#section4">Software Components</a></li>
-        <li><a href="#section5">System Architecture</a></li>
-        <li><a href="#section6">Functionalities</a></li>
-        <li><a href="#section7">User Guide</a></li>
-        <li><a href="#section8">Results</a></li>
-        <li><a href="#section9">Challenges and Limitations</a></li>
-        <li><a href="#section10">Future Improvements</a></li>
-        <li><a href="#section11">Conclusion</a></li>
-        <li><a href="#section12">References</a></li>
+         <li>Project Overview</li>
+        <li>Objective</li>
+        <li>Hardware Components</li>
+        <li>Software Components</li>
+        <li>System Architecture</li>
+        <li>Functionalities</li>
+        <li>User Guide</li>
+        <li>Results</li>
+        <li>Challenges and Limitations</li>
+        <li>Future Improvements</li>
+        <li>Conclusion</li>
+        <li>References</li>
     </ol>
 
   <h2 id="section1">1. Project Overview</h2>
