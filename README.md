@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Project Report: RFID-Based Door Access Control System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            margin-top: 20px;
-        }
-        h3 {
-            margin-top: 10px;
-        }
-        ul {
-            margin-bottom: 10px;
-        }
-        ol {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Project Report: RFID-Based Door Access Control System</h1>
+<h1>Project Report: RFID-Based Door Access Control System</h1>
 
    <h2>Table of Contents</h2>
     <ol>
