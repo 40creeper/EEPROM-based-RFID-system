@@ -42,62 +42,34 @@
     </ul>
     <h2 id="section3">3.Pin Connections</h2>
     <p>NODEMCU to MFRC522</p>
-
-<style>
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #222;
-  color: #fff;
-}
-
-table {
-
-  border-collapse: collapse;
-  border: 1px solid #fff;
-}
-
-th, td {
-    border-collapse: collapse;
-  border: 1px solid #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-thead th {
-  background-color: #444;
-}
-</style>
-</head>
-<body>
-<h1>NodeMCU to MFRC522 Pin Connections</h1>
-<table>
-<thead>
-<tr>
-<th style="width: 200px;">NodeMCU Pin</th>
-<th style="width: 200px;">LCD Pins</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>5v</td>
-<td>5v</td>
-</tr>
-<tr>
-<td>GND</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>SDA</td>
-<td>02</td>
-</tr>
-<tr>
-<td>SCL</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-</body>
-</html>
+      <table>
+      <thead>
+      <tr>
+      <th style="width: 200px;">NodeMCU Pin</th>
+      <th style="width: 200px;">LCD Pins</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>5v</td>
+      <td>5v</td>
+      </tr>
+      <tr>
+      <td>GND</td>
+      <td>GND</td>
+      </tr>
+      <tr>
+      <td>SDA</td>
+      <td>02</td>
+      </tr>
+      <tr>
+      <td>SCL</td>
+      <td>0</td>
+      </tr>
+      </tbody>
+      </table>
+      </body>
+      </html>
 
    <h2 id="section4">4. Software Components</h2>
     <p>The software components used in the project include:</p>
