@@ -42,7 +42,46 @@
     </ul>
     <h2 id="section3">3.Pin Connections</h2>
     <p>NODEMCU to MFRC522</p>
-      <table>
+       <table>
+<thead>
+<tr>
+<th style="width: 200px;">NodeMCU Pin</th>
+<th style="width: 200px;">LCD Pins</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.3</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>GND</td>
+</tr>
+<tr>
+<td>5</td>
+<td>RST</td>
+</tr>
+<tr>
+<td>12</td>
+<td>MISO</td>
+</tr>
+<tr>
+<td>13</td>
+<td>MOSI</td>
+</tr>
+<tr>
+<td>14</td>
+<td>SCK</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SDA</td>
+</tr>
+</tbody>
+</table>
+   <p>NODEMCU to LCD</p>
+       <table>
       <thead>
       <tr>
       <th style="width: 200px;">NodeMCU Pin</th>
@@ -70,7 +109,6 @@
       </table>
       </body>
       </html>
-
    <h2 id="section4">4. Software Components</h2>
     <p>The software components used in the project include:</p>
     <ul>
