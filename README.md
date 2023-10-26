@@ -40,7 +40,7 @@
         <li>LEDs</li>
         <li>Connecting wires</li>
     </ul>
-    <h2 id="section3">3.Pin Connections</h2>
+    <h2 id="section4">4.Pin Connections</h2>
     <p>NODEMCU to MFRC522</p>
        <table>
 <thead>
@@ -109,7 +109,7 @@
       </table>
       </body>
       </html>
-   <h2 id="section4">4. Software Components</h2>
+   <h2 id="section5">5. Software Components</h2>
     <p>The software components used in the project include:</p>
     <ul>
         <li>Arduino IDE for programming the ESP8266 microcontroller.</li>
@@ -118,7 +118,7 @@
         <li>HTML and CSS for creating web interfaces.</li>
     </ul>
 
-  <h2 id="section5">5. System Architecture</h2>
+  <h2 id="section6">6. System Architecture</h2>
     <p>The system follows a client-server architecture:</p>
     <ul>
         <li>The ESP8266 microcontroller serves as the client and controls the hardware components.</li>
@@ -126,7 +126,7 @@
         <li>The web server running on the ESP8266 microcontroller provides a user interface for administrators and communicates with the Google Apps Script server.</li>
     </ul>
 
-   <h2 id="section6">6. Functionalities</h2>
+   <h2 id="section7">7. Functionalities</h2>
    <p>The RFID-Based Door Access Control System offers the following functionalities:</p>
     <ul>
         <li>RFID card authentication for access control.</li>
@@ -138,7 +138,7 @@
         <li>Ability to add, remove, and view authorized users.</li>
     </ul>
 
-  <h2 id="section7">7. User Guide</h2>
+  <h2 id="section8">8. User Guide</h2>
     <p><strong>For Administrators:</strong></p>
     <ol>
         <li>Connect to the system's WiFi network.</li>
@@ -152,10 +152,10 @@
         <li>The system will either grant or deny access and provide visual and audible feedback.</li>
     </ol>
 
-   <h2 id="section8">8. Results</h2>
+   <h2 id="section9">9. Results</h2>
     <p>The RFID-Based Door Access Control System successfully provides access control based on RFID card authentication. Administrators can easily manage user access through a web interface, and the system provides real-time feedback to users.</p>
 
-   <h2 id="section9">9. Challenges and Limitations</h2>
+   <h2 id="section10">10. Challenges and Limitations</h2>
     <p><strong>Challenges and Limitations:</strong></p>
     <ul>
         <li>Limited storage capacity: The EEPROM storage of the ESP8266 has a limited capacity for storing user data.</li>
@@ -163,7 +163,7 @@
         <li>Scalability: The system may require additional features for scalability in larger environments.</li>
     </ul>
 
-  <h2 id="section10">10. Future Improvements</h2>
+  <h2 id="section11">11. Future Improvements</h2>
     <p><strong>Future Improvements:</strong></p>
     <ul>
         <li>Implement a database for more extensive storage of user data.</li>
@@ -172,10 +172,10 @@
         <li>Integrate with a cloud-based authentication service for user management.</li>
     </ul>
 
-   <h2 id="section11">11. Conclusion</h2>
+   <h2 id="section12">12. Conclusion</h2>
     <p>The RFID-Based Door Access Control System provides a secure and user-friendly solution for access control. It can be used in various applications, including homes, offices, and industrial facilities, to ensure authorized access to secured areas.</p>
 
-  <h2 id="section12">12. References</h2>
+  <h2 id="section13">13. References</h2>
     <p>References:</p>
     <ul>
         <li><a href="https://www.esp8266.com/">ESP8266 WiFi Module</a></li>
