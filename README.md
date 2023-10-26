@@ -84,8 +84,8 @@
        <table>
       <thead>
       <tr>
-      <th style="width: 200px;">NodeMCU Pin</th>
       <th style="width: 200px;">LCD Pins</th>
+      <th style="width: 200px;">NodeMCU Pin </th>
       </tr>
       </thead>
       <tbody>
