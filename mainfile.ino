@@ -493,7 +493,7 @@ const char* loginPage = R"rawliteral(
     
 
 WiFiClientSecure client;
-String GAS_ID = "AKfycbwFmZfA_BAjZkLRIdNJze7xIqh2CinYTFlwny8VXb-vy_udyj9BT1v5ReSXErQE1gHD";
+String GAS_ID = "AKfycbwWGXYihyAmtssGS2pMACbsWp8uLZPsE2q7c6ebgN6Z7p9Eokta02iKt8xCFP_kND1k";
 
 void connectToWiFi() {
     wifiConnected = false;
