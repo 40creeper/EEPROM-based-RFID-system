@@ -38,6 +38,9 @@ const String expectedPassword = "a";
 bool isAuthenticated = false;
 String username = "a";
 String userpassword = "a";
+WiFiClientSecure client;
+String GAS_ID = "AKfycbwWGXYihyAmtssGS2pMACbsWp8uLZPsE2q7c6ebgN6Z7p9Eokta02iKt8xCFP_kND1k";
+
 const char* loginPage = R"rawliteral(
 <!DOCTYPE html>
 <html>
@@ -490,10 +493,6 @@ const char* loginPage = R"rawliteral(
     </body>
     </html>
     )rawliteral";
-    
-
-WiFiClientSecure client;
-String GAS_ID = "AKfycbwWGXYihyAmtssGS2pMACbsWp8uLZPsE2q7c6ebgN6Z7p9Eokta02iKt8xCFP_kND1k";
 
 void connectToWiFi() {
     wifiConnected = false;
