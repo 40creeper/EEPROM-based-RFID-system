@@ -24,7 +24,7 @@
     <p>The main objective of this project is to create a secure and user-friendly access control system that provides controlled access to a specific area. The system should be able to:</p>
     <ul>
         <li>Allow authorized users to unlock the door using their RFID cards.</li>
-        <li>Maintain a list of authorized users and their RFID card information.</li>
+        <li>Maintain a list of authorized users and their RFID card information in the EEPROM.</li>
         <li>Allow administrators to add or remove users through a web interface.</li>
         <li>Provide a secure login mechanism for administrators to manage the system.</li>
     </ul>
@@ -143,8 +143,9 @@
     <ol>
         <li>Connect to the system's WiFi network.</li>
         <li>Open a web browser and navigate to the system's IP address (default: http://&lt;ESP8266_IP&gt;/).</li>
-        <li>Log in with the provided username and password.</li>
+        <li>Log in with the provided username and password. The username and password can be declared in the mainfile.ino</li>
         <li>Add or remove users as needed.</li>
+      <li>After performing any activities in the Web page make sure to logout otherwise the will not be sent to the Google sheets</li>
     </ol>
     <p><strong>For Users:</strong></p>
     <ol>
@@ -153,7 +154,7 @@
     </ol>
 
    <h2 id="section9">9. Results</h2>
-    <p>The RFID-Based Door Access Control System successfully provides access control based on RFID card authentication. Administrators can easily manage user access through a web interface, and the system provides real-time feedback to users.</p>
+    <p>The RFID-Based Door Access Control System successfully provides access control based on RFID card authentication. Administrators can easily manage user access through a web interface, and the system provides real-time feedback to users also sending data to the Google shees for further checking of the in time and the user entered.</p>
 
    <h2 id="section10">10. Challenges and Limitations</h2>
     <p><strong>Challenges and Limitations:</strong></p>
@@ -170,6 +171,7 @@
         <li>Enhance security features, such as multi-factor authentication.</li>
         <li>Enable remote access and control via a mobile app.</li>
         <li>Integrate with a cloud-based authentication service for user management.</li>
+       <li>Improve the styling and look of the Admim Login panel.</li>
     </ul>
 
    <h2 id="section12">12. Conclusion</h2>
