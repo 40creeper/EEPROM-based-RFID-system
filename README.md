@@ -19,7 +19,16 @@
 
   <h2 id="section1">1. Project Overview</h2>
     <p>The RFID-Based Door Access Control System is an embedded system that utilizes RFID (Radio-Frequency Identification) technology to control access to a secured area or a door. The system consists of an ESP8266 microcontroller, an RFID module, a 16x2 LCD display, and a web server. Users are required to authenticate using a web-based interface before being granted access.
-    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/Login%20Page.png"></p>
+   </p>
+   <div class="row">
+  <div class="col-6">
+    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/Login%20Page.png" alt="Login Page">
+  </div>
+  <div class="col-6">
+    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/RFID%20Module.png" alt="RFID Module">
+  </div>
+</div>
+
    <h2 id="section2">2. Objective</h2>
     <p>The main objective of this project is to create a secure and user-friendly access control system that provides controlled access to a specific area. The system should be able to:</p>
     <ul>
