@@ -1,3 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NodeMCU to MFRC522 Pin Connections</title>
+<style>
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+table {
+
+  border-collapse: collapse;
+  border: 1px solid #fff;
+}
+
+th, td {
+    border-collapse: collapse;
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+thead th {
+  background-color: #444;
+}
+</style>
+</head>
+<body>
+<h1>NodeMCU to MFRC522 Pin Connections</h1>
 <h1>RFID-Based Door Access Control System</h1>
 
    <h2>Table of Contents</h2>
@@ -22,11 +53,20 @@
    </p>
    <div class="row">
   <div class="col-6">
-    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/Login%20Page.png" alt="Login Page">
+    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/Login%20Page.png?raw=true" alt="Login Page"  width="50%" height="50%" padding="1%">
   </div>
   <div class="col-6">
-    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/RFID%20Module.png" alt="RFID Module">
+    <img src="https://github.com/40creeper/EEPROM-based-RFID-system/blob/main/Maintainance%20Page.png?raw=true" alt="RFID Module"  width="50%" height="50%" padding="1%">
   </div>
+  <style>
+    .row img {
+      padding: 1%;
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+  </style>
 </div>
 
    <h2 id="section2">2. Objective</h2>
@@ -197,5 +237,8 @@
         <li><a href="https://github.com/esp8266/Arduino">ESP8266WiFi Library</a></li>
         <li><a href="https://github.com/esp8266/Arduino">ESP8266WebServer Library</a></li>
     </ul>
+</body>
+</html>
+
 </body>
 </html>
